@@ -1,0 +1,94 @@
+body {
+
+    background-color: #f15156;
+    max-width: 1440px;
+    padding: 100px;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: monospace;
+
+}
+.landpage{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+h2 {
+    font-size: 72px;
+    font-family: nunito;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 180px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.content-left,
+.content-right {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    margin: 0 auto;
+    justify-content: center;
+   
+}
+
+.content-left span {
+    font-size: 24px;
+}
+.content-ceps{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    
+}
+.selects{
+    display: flex;
+    gap: 12px;
+}
+
+label {
+    font-size: 1rem;
+}
+
+.btnBuscar{
+padding: 1rem;
+background: #F4D35E;
+border-radius: 20px;
+
+}
+
+#cidade{
+ /* nao to acertando trazer a seta pra perto da porra do nome da cidade. Vai ter q fazer um after e controlar ele? kk */
+width: 280px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 10px;
+background: rgba(228, 68, 73, 1);
+color: white;
+font-size: 20px;
+text-align: center;
+border: none;
+
+}
+
+#estados{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: rgba(228, 68, 73, 1);
+    color: white;
+}
