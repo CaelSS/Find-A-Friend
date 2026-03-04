@@ -70,7 +70,7 @@ border-radius: 20px;
 
 }
 
-#cidade{
+.cidade{
  /* nao to acertando trazer a seta pra perto da porra do nome da cidade. Vai ter q fazer um after e controlar ele? kk */
 width: 280px;
 padding-top: 10px;
@@ -84,7 +84,7 @@ border: none;
 
 }
 
-#estados{
+.estados{
     padding-left: 10px;
     padding-right: 10px;
     border: 1px solid white;
