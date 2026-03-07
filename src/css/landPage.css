@@ -18,7 +18,7 @@ body {
     gap: 150px;
 }
 
-h2 {
+.logoPhrase {
     font-size: 72px;
     font-family: nunito;
 }

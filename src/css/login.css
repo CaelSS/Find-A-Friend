@@ -2,11 +2,13 @@
 
 :root{
     --azul-texto: rgba(13, 59, 102, 1);
-    --background-color:  #f15156;
+    --background-color: #f15156;
     --branco: white;
     --background-input: rgba(245, 248, 250, 1); 
     --cor-da-bordinha: rgba(211, 226, 229, 1); 
 }
+
+/* LAYOUT DA PÁGINA */
 
 .containers {
     max-width: 1400px;
@@ -18,6 +20,8 @@
     align-items: center;
     gap: 150px;
 }
+
+/* LADO DA MARCA */
 
 .marca {
     background-color: var(--background-color);
@@ -31,51 +35,51 @@
     box-sizing: border-box;
 }
 
-.logo {
+.marca .logo {
     margin-top: 120px;
     display: flex;
     align-items: center;
     gap: 5px;
-
-
-
 }
 
-h1 {
+.marca h1 {
     font-family: nunito;
     color: var(--branco);
-
 }
 
-h2 {
-    font-size: 3.375rem;
-    color: var(--azul-texto);
-    margin-bottom: 80px;
-}
+/* LADO DO FORM */
 
 .forms {
     font-family: nunito;
     display: flex;
     flex-direction: column;
-    
-    
 }
 
-form{
+.forms .titulo2 {
+    font-size: 3.375rem;
+    color: var(--azul-texto);
+    margin-bottom: 80px;
+}
+
+.forms form{
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.formulario label{
-    font-size: 1rem;
-    color:var(--azul-texto) ;
+.formulario{
     display: flex;
-
+    flex-direction: column;
 }
 
-input{
-   
+.formulario label{
+    font-size: 1rem;
+    color: var(--azul-texto);
+}
+
+/* INPUTS */
+
+.forms input{
     background-color: var(--background-input);
     border: 1px solid var(--cor-da-bordinha);
     padding-left: 20px;
@@ -84,28 +88,24 @@ input{
     border-radius: 10px;
 }
 
-input::placeholder{
+.forms input::placeholder{
    color: var(--azul-texto);
    font-size: 1rem;
 }
+
+/* BOTÕES */
 
 .buttons{
     display: flex;
     flex-direction: column;
     margin-top: 80px;
     gap: 20px;
-    align-items: first baseline;
-
-
 }
 
 .btnForm{
     width: 500px;
-    height: 64px;
-    border: 1px solid var(--cor-da-bordinha);
-    width: 500px;
     height: 65px;
-
+    border: 1px solid var(--cor-da-bordinha);
 }
 
 .btnLogin{
