@@ -1,0 +1,126 @@
+@import url(../css/global.css);
+
+:root{
+    --azul-texto: rgba(13, 59, 102, 1);
+    --background-color:  #f15156;
+    --branco: white;
+    --background-input: rgba(245, 248, 250, 1); 
+    --cor-da-bordinha: rgba(211, 226, 229, 1); 
+}
+
+.containers {
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 150px;
+}
+
+.marca {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+
+
+}
+
+h1 {
+    font-family: nunito;
+    color: var(--branco);
+
+}
+
+h2 {
+    font-size: 3.375rem;
+    color: var(--azul-texto);
+    margin-bottom: 80px;
+}
+
+.forms {
+    font-family: nunito;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.formulario label{
+    font-size: 1rem;
+    color:var(--azul-texto) ;
+    display: flex;
+
+}
+
+input{
+   
+    background-color: var(--background-input);
+    border: 1px solid var(--cor-da-bordinha);
+    padding-left: 20px;
+    width: 500px;
+    height: 64px;
+    border-radius: 10px;
+}
+
+input::placeholder{
+   color: var(--azul-texto);
+   font-size: 1rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    gap: 20px;
+    align-items: first baseline;
+
+
+}
+
+.btnForm{
+    width: 500px;
+    height: 64px;
+    border: 1px solid var(--cor-da-bordinha);
+    width: 500px;
+    height: 65px;
+
+}
+
+.btnLogin{
+    background-color: var(--azul-texto);
+    border-radius: 20px;
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btnCadastrar{
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: var(--background-input);
+    border: none;
+    color: var(--azul-texto);
+    font-weight: bold;
+}
