@@ -14,7 +14,7 @@ export function formEvents() {
     };
 
     try {
-      const response = await axios.post('/login', data);
+      const response = await axios.post('/orgs/session', data);
 
       console.log(response.data);
     } catch (error) {
