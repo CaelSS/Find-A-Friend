@@ -5,9 +5,9 @@ import { axios } from '@/services/axios.js';
 // e crio fetchCities para lidar com a requisição das cidades
 export function fetchLocations(url, { selectUf, selectCity }) {
   if (!selectUf || !selectCity) {
-    console.log('Select de UF ou cidade não encontrado');
     return;
   }
+
   async function fetchUfs() {
     const response = await axios.get(`${url}/estados?orderBy=nome`); // crio a variavel response para armazenar a resposta da api
 

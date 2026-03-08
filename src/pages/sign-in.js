@@ -1,8 +1,9 @@
 import { Form } from '@/components/form/form';
 import { formEvents } from '@/components/form/form-events';
+import { AuthLayout } from '../layouts/auth-layout';
 
 export function SignIn() {
-  return `
+  return AuthLayout(`
     <section class="containers">
       <div class="marca">
         <div class="logo">
@@ -19,7 +20,7 @@ export function SignIn() {
         ${Form()}
       </div>
     </section>
-    `;
+  `);
 }
 
 export function initSignIn() {
