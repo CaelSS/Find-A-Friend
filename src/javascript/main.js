@@ -1,5 +1,8 @@
 // este script aqui tu carrega ele no index.html, então ele irá centralizar os scripts que serão usado no projeto
 // para evitar que fique chamando vários scripts no index.html
+import { initRouter } from '../routes/router';
+
+initRouter();
 
 import { fetchLocations } from './modules/fetch-locations';
 
@@ -9,7 +12,7 @@ import { fetchLocations } from './modules/fetch-locations';
 // e os valores são os elementos html
 // da um ctrl + click na função "fetchLocations" que o vscode te manda pra ela pra tu entender ela melhor
 
-fetchLocations('https://servicodados.ibge.gov.br/api/v1/localidades', {
-  selectUf: document.getElementById('select-uf'),
-  selectCity: document.getElementById('select-city'),
-});
+// fetchLocations('https://servicodados.ibge.gov.br/api/v1/localidades', {
+//   selectUf: document.getElementById('select-uf'),
+//   selectCity: document.getElementById('select-city'),
+// });
