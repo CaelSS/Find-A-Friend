@@ -1,0 +1,51 @@
+/* RESET */
+:root{
+    --azul-texto: rgba(13, 59, 102, 1);
+    --background-color: #f15156;
+    --branco: white;
+    --background-input: rgba(245, 248, 250, 1); 
+    --cor-da-bordinha: rgba(211, 226, 229, 1); 
+}
+
+body {
+    
+    max-width: 1400px;
+    padding: 100px;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: monospace;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ELEMENTS */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+

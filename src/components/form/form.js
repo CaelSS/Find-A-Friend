@@ -23,12 +23,13 @@ export function Form() {
       <div class="buttons">
         ${Button({
           text: 'Login',
+          className: 'botao',
+          size: "small",
         })}
 
-        ${Button({
-          text: 'Cadastrar minha organzação',
-        })}
+       <a href="/sign-up">Já possui conta?</a>
       </div>
     </form>
   `;
 }
+

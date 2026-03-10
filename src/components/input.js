@@ -11,3 +11,5 @@ export function Input({ label, name, id, type = 'text', placeholder = '' }) {
     </div>
   `;
 }
+
+import '../styles/components/input.css'

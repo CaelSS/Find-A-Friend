@@ -28,7 +28,7 @@ export function Home() {
                     <label for="cep">Busque um amigo:</label>
                     <div class="selects">
                         <select class="estados" name="estados" id="select-uf">
-                            <option value="">BA</option>
+                        
                         </select>
                         <select class="cidade" id="select-city">
                             <option value="">cidade</option>
@@ -42,3 +42,5 @@ export function Home() {
     </div>
 `;
 }
+
+import "../styles/pages/home.css"

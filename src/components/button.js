@@ -1,5 +1,5 @@
-export function Button({ text }) {
+export function Button({ text, className, size }) {
   return `
-    <button type="submit">${text}</button>
+    <button class="${className} ${size}" type="submit">${text}</button>
   `;
 }

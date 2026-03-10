@@ -1,0 +1,25 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label{
+    font-size: 1rem;
+    color: var(--azul-texto);
+}
+
+/* INPUTS */
+
+.forms input{
+    background-color: var(--background-input);
+    border: 1px solid var(--cor-da-bordinha);
+    padding-left: 20px;
+    width: 500px;
+    height: 64px;
+    border-radius: 10px;
+}
+
+.forms input::placeholder{
+   color: var(--azul-texto);
+   font-size: 1rem;
+}

@@ -1,12 +1,7 @@
-@import url(../css/global.css);
-
-:root{
-    --azul-texto: rgba(13, 59, 102, 1);
-    --background-color: #f15156;
-    --branco: white;
-    --background-input: rgba(245, 248, 250, 1); 
-    --cor-da-bordinha: rgba(211, 226, 229, 1); 
+.layoutcontainer{
+    display: flex;
 }
+
 
 /* LAYOUT DA PÁGINA */
 
@@ -67,31 +62,7 @@
     gap: 1rem;
 }
 
-.formulario{
-    display: flex;
-    flex-direction: column;
-}
 
-.formulario label{
-    font-size: 1rem;
-    color: var(--azul-texto);
-}
-
-/* INPUTS */
-
-.forms input{
-    background-color: var(--background-input);
-    border: 1px solid var(--cor-da-bordinha);
-    padding-left: 20px;
-    width: 500px;
-    height: 64px;
-    border-radius: 10px;
-}
-
-.forms input::placeholder{
-   color: var(--azul-texto);
-   font-size: 1rem;
-}
 
 /* BOTÕES */
 
